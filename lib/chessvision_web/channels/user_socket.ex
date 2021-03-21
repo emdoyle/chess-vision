@@ -2,7 +2,7 @@ defmodule ChessvisionWeb.UserSocket do
   use Phoenix.Socket
 
   ## Channels
-  # channel "room:*", ChessvisionWeb.RoomChannel
+  channel "room:*", ChessvisionWeb.RoomChannel
 
   # Socket params are passed from the client and can
   # be used to verify and authenticate a user. After
